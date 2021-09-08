@@ -1,0 +1,35 @@
+body{
+    background: #282828;
+}
+
+#maininput{
+    margin-top: 50px;
+    width: 14.3vw;
+    height: 6vw;
+    margin-bottom: 3px;
+    background: #313131;
+    border-width: 0px;
+    color: white;
+    border-color: black;
+    font-size: 20px;
+      
+}
+
+
+
+.buttons{
+    border-width: 1px;
+    border-color: #282828;
+    background-color: #0f0f0f;
+    width: 70px;
+    height: 70px;
+    margin-left: 0px;
+    color:white;
+    
+}
+
+.buttonoperation{
+    background: #313131;
+  
+    border-color:#0f0f0f;
+}
