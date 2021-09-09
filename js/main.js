@@ -4,7 +4,7 @@ let input3 = document.querySelector("#answerimp");
 
 let btnplus = document.querySelector("#plusbtn");
 let minsbtn = document.querySelector("#minusbtn");
-let multiplybtn = document.querySelector("#multiplay");
+let multiplybtn = document.querySelector("#multip");
 let devidebtn = document.querySelector("#devidebtn");
 
 
@@ -199,6 +199,7 @@ if(equalsbtn)
 {
     equalsbtn.onclick = function()
     {
+        console.log(lastOpersation)
         switch (lastOpersation)
         {
             case "+":
